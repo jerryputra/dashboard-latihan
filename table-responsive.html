@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dahsboard</title>
+    <link rel="stylesheet" href="styletable.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="header">
+                <div class="list-item">
+                    <a href="#">
+                        <img src="asset/yutub.png" alt="" class="icon">
+                        <span class="description-header">Dahsboard Buatan</span>
+                    </a>
+                </div>
+
+                <div class="illustration">
+                    <img src="asset/illustration.png" alt="">
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="list-item">
+                    <a href="">
+                        <img src="asset/pegawai.png" alt="" class="icon">
+                        <span class="description">Pegawai</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="main-text">
+                <h1>PREFLIGHT CHECKLIST</h1>
+            </div>
+            <br>
+                        <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Tambah Data
+            </button>
+            
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                        Modal body..
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <br>
+
+                <table class="table">
+                    <tr>
+                        <td>FLT. NO: IP : <input type="text" name="" id=""></td>
+                        <td>A/C REG.: PK - <input type="text" name="" id=""></td>
+                        <td>DATE: <input type="text" name="" id=""></td>
+                        <td>DEP. A/P:  <input type="text" name="" id=""></td>
+                    </tr>
+                </table>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Action</th>
+                            <th>Emergency Equipment</th>
+                            <th>Pre/Post</th>
+                            <th>Quantity</th>
+                            <th>S</th>
+                            <th>U/S</th>
+                            <th>Remark</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="button" value="Edit" class="button-act">
+                                <input type="button" value="Delete" class="button-act">
+                            </td>
+                            <td>Lav. Smoke Detector</td>
+                            <td>PREFLIGHT</td>
+                            <td>5</td>
+                            <td><input type="checkbox"></td>
+                            <td></td>
+                            <td>"Visibility reduced, use caution."</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="Edit" class="button-act">
+                                <input type="button" value="Delete" class="button-act">
+                            </td>
+                            <td>Megaphone</td>
+                            <td>PREFLIGHT</td>
+                            <td>3</td>
+                            <td><input type="checkbox"></td>
+                            <td></td>
+                            <td>Known issue with avionics system, contact maintenance if problems arise.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="Edit" class="button-act">
+                                <input type="button" value="Delete" class="button-act"  >
+                            </td>
+                            <td>Flashlight</td>
+                            <td>POSTFLIGHT</td>
+                            <td>20</td>
+                            <td></td>
+                            <td><input type="checkbox"></td>
+                            <td>THERE IS NO BATTERY</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

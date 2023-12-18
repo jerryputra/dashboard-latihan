@@ -1,0 +1,96 @@
+*{
+    box-sizing:border-box ;
+}
+
+.body{
+    margin: 40px;
+    font-family:"ubuntu",  Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.table-responsive{
+    max-width: 900px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #efefef33;
+    padding: 5px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+    font-size: 14px;
+    color: #444 ;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+table>thead{
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+table>thead th{
+    padding: 15px;
+}
+
+table th, table td{
+    border: 1px solid;
+}
+
+.action_btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action_btn1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action_btn>a{
+    text-decoration: none;
+    color: #444;
+    background: whitesmoke;
+    border: 1px solid rgb(218, 126, 28);
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 13px;
+    transition: 1s ease-in-out;
+}
+
+.action_btn1>a{
+    text-decoration: none;
+    color: #701e1e;
+    background: whitesmoke;
+    border: 1px solid rgb(218, 126, 28);
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 13px;
+    transition: 1s ease-in-out;
+    left: auto;
+}
+
+.action_btn>a:nth-child(1){
+    background:blue;
+    color: white;
+}
+
+.action_btn>a:nth-child(2){
+    background: red;
+    color: white;
+}
+
+.action_btn>a:hover{
+    box-shadow: black;
+}
+
+.action_btn1>a:nth-child(1){
+    background: rgb(50, 113, 50);
+    color: aliceblue;
+}

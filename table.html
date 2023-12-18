@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel PreChecklisht</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- sidebar -->
+        <div class="sidebar-container">
+            <div class="logo-sidebar">
+                <img src="asset/logo.png" alt="" class="icon-sidebar">
+            </div>
+
+            <ul class="ul-sidebar">
+                <li class="li-sidebar">
+                    <a href="#" class="a-sidebar"><span class="text-sidebar">Home</span></a>
+                </li>
+                <li class="li-sidebar">
+                    <a href="#" class="a-sidebar"><span class="text-sidebar">Prechecklist</span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- end sidebar -->
+
+        <!-- main content -->
+        <div class="main-content">
+            <h3 class="main-text">
+                PreFlight Checklist
+            </h3>
+
+            <button class="btn-input">
+                <a href="#" class="a-btn">Tambah Data</a>
+            </button>
+
+            <table class="table-main">
+                <tr>
+                    <th>ID FLIGHT</th>
+                    <th>FLT. NO: IP</th>
+                    <th>A/C REG.: PK -</th>
+                    <th>DATE:</th>
+                    <th>DEP. A/P:</th>
+                    <th>ACTION</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>IP123</td>
+                    <td>ABC</td>
+                    <td>2043-01-15</td>
+                    <td>JFK</td>
+                    <td>
+                        <button type="button">EDIT</button>
+                        <button type="button">DELETE</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>IP194</td>
+                    <td>DEF</td>
+                    <td>2043-09-15</td>
+                    <td>ENG</td>
+                    <td>
+                        <button type="button">EDIT</button>
+                        <button type="button">DELETE</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>IP785</td>
+                    <td>HIJ</td>
+                    <td>2043-11-20</td>
+                    <td>KOR</td>
+                    <td>
+                        <button type="button">EDIT</button>
+                        <button type="button">DELETE</button>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="sec-content-container">
+                <div class="sec-content">
+                    <h3 class="h3-sec-content">Tabel Emergency</h3>
+                </div>
+
+                <button class="btn-input">
+                    <a href="#" class="a-btn">Tambah Data</a>
+                </button>
+
+                <table class="second-table">
+                    <tr>
+                        <th>Emergency Equipment</th>
+                        <th>Pre/Post</th>
+                        <th>Quantity</th>
+                        <th>S</th>
+                        <th>US</th>
+                        <th>Remark</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>Lav. Smoke Detector</td>
+                        <td>PREFLIGHT</td>
+                        <td>5</td>
+                        <td><input type="checkbox"></td>
+                        <td></td>
+                        <td>"Visibility reduced, use caution."</td>
+                        <td>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Megaphone</td>
+                        <td>PREFLIGHT</td>
+                        <td>3</td>
+                        <td><input type="checkbox"></td>
+                        <td></td>
+                        <td>Known issue with avionics system, contact maintenance if problems arise</td>
+                        <td>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Flashlight</td>
+                        <td>POSTFLIGHT</td>
+                        <td>20</td>
+                        <td></td>
+                        <td><input type="checkbox"></td>
+                        <td>THERE IS NO BATTERY</td>
+                        <td>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <!-- end main content -->
+
+    </div>
+
+
+
+</body>
+
+</html>
