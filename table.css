@@ -154,3 +154,8 @@ td{
     text-align: center;
     margin: 5px;
 }
+
+.btn-flgt{
+    text-decoration: none;
+    color: black;
+}

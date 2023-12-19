@@ -187,3 +187,8 @@ tr {
     font-size: x-small;
     
 }
+
+.btn-save{
+    text-decoration: none;
+    color: black;
+}
