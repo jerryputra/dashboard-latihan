@@ -29,8 +29,7 @@ body {
 }
 
 .icon-sidebar{
-    width: 200px;
-    height: 100px;
+    width: 300%;
     margin-right: 10px;
 }
 
@@ -74,6 +73,8 @@ body {
     width: 80%;
     display: flex;    
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-text{
@@ -152,12 +153,12 @@ td{
     display: flex;
     flex-direction: column  ;
     justify-content: center;
-    align-items:start;
-    margin-left: 30px;
-    width: 80%;
+    align-items:center;
+    /* margin-left: 30px; */
+    width: 100%;
     border-collapse: collapse;
     text-align: left;
-    padding: 10px;
+    padding: 20px;
     /* background-color: thistle; */
 }
 
@@ -176,7 +177,7 @@ tr {
 }
 
 .inputtext{
-    width: 400px;
+    width: 600px;
 }
 
 .btn-smt {
@@ -187,8 +188,8 @@ tr {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    /* border-radius: 5px; */
-    background-color: #427D9D;
+    border-radius: 5px;
+    background-color: #5dde72;
 }
 
 .btn-cnl{
@@ -199,6 +200,7 @@ tr {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
     background-color: crimson;
 }
 
@@ -209,8 +211,9 @@ tr {
 
 .td-title{
     padding: 10px;
+    width: 50%;
 }
 
-.td-title1{
+.td-data{
     width: 50%;
 }
