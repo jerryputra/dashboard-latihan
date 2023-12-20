@@ -32,54 +32,54 @@
             <h3 class="h3">INPUT DATA FLIGHT</h3>
 
             <!-- <div class="table-container"> -->
-                <!-- <table class="tb-insert"> -->
-                <!-- <tr> -->
-                <table class="tb-insert">
-                    <tr>
-                        <td class="td-title">ID FLIGHT</td>
-                        <td  colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">FLT. NO: IP</td>
-                        <td colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">A/C REG.: PK -</td>
-                        <td  colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">DATE:</td>
-                        <td  colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">DEP. A/P:</td>
-                        <td  colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
+            <!-- <table class="tb-insert"> -->
+            <!-- <tr> -->
+            <table class="tb-insert">
+                <tr>
+                    <td class="td-title" >ID FLIGHT</td>
+                    <td colspan="3"><input type="text" class="inputtext" id="id_flight"></td>
+                </tr>
+                <tr>
+                    <td class="td-title" >FLT. NO: IP</td>
+                    <td colspan="3"><input type="text" class="inputtext" id="id_flt"></td>
+                </tr>
+                <tr>
+                    <td class="td-title" >A/C REG.: PK -</td>
+                    <td colspan="3"><input type="text" class="inputtext" id="id_reg"></td>
+                </tr>
+                <tr>
+                    <td class="td-title" >DATE:</td>
+                    <td colspan="3"><input type="text" class="inputtext" id="id_date"></td>
+                </tr>
+                <tr>
+                    <td class="td-title" >DEP. A/P:</td>
+                    <td colspan="3"><input type="text" class="inputtext" id="id_dep"></td>
+                </tr>
 
-                    <tr>
-                        <td class="td-title">Pre/Post</td>
-                        <td  colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">Quantity</td>
-                        <td  colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">S</td>
-                        <td  colspan="3"><input type="checkbox"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">U/S</td>
-                        <td  colspan="3"><input type="checkbox"> </td>
-                    </tr>
-                    <tr>
-                        <td class="td-title">Remark</td>
-                        <td  colspan="3"><input type="text" class="inputtext"></td>
-                    </tr>
-                </table>
+                <tr>
+                    <td class="td-title">Pre/Post</td>
+                    <td colspan="3"><input type="text" class="inputtext"></td>
+                </tr>
+                <tr>
+                    <td class="td-title">Quantity</td>
+                    <td colspan="3"><input type="text" class="inputtext"></td>
+                </tr>
+                <tr>
+                    <td class="td-title">S</td>
+                    <td colspan="3"><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td class="td-title">U/S</td>
+                    <td colspan="3"><input type="checkbox"> </td>
+                </tr>
+                <tr>
+                    <td class="td-title">Remark</td>
+                    <td colspan="3"><input type="text" class="inputtext"></td>
+                </tr>
+            </table>
 
-                <!-- </tr> -->
-                <!-- </table> -->
+            <!-- </tr> -->
+            <!-- </table> -->
 
             <!-- </div> -->
 
@@ -123,7 +123,7 @@
                 </tr>
             </table>
 
-            <button type="submit" class="btn-smt">
+            <button type="button" onclick="tambahData()" class="btn-smt">
                 <a href="table.html" class="a-save">
                     SAVE
                 </a>
@@ -141,7 +141,7 @@
     </div>
 
 
-
+    <script src="table.js"></script>
 </body>
 
 </html>
