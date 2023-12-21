@@ -1,12 +1,12 @@
 function tambahData() {
-  var flight = document.getElementById("id_flight").value;
-  var flt = document.getElementById("id_flt").value;
-  var reg = document.getElementById("id_reg").value;
-  var date = document.getElementById("id_date").value;
-  var dep = document.getElementById("id_dep").value;
+  var flight = document.getElementById('id_flight').value;
+  var flt = document.getElementById('id_flt').value;
+  var reg = document.getElementById('id_reg').value;
+  var date = document.getElementById('id_date').value;
+  var dep = document.getElementById('id_dep').value;
 
-  document.getElementById("tabel-main");
-  var row = table.insertRow(-1);
+  var table = document.getElementById('tabel-main').getElementsByTagName('tbody')[0];
+  var newRow = table.insertRow(table.rows.length);
 
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
