@@ -10,24 +10,37 @@
     
     <form action="" class="formcoba">
         <label for="">id Flight :</label>
-        <input type="text" id="id-fli">
+        <input type="text" id="fli">
 
         <label for="">FLT. NO: IP :</label>
-        <input type="text" id="id-flt">
+        <input type="text" id="flt">
 
         <label for="">A/C REG.: PK :</label>
-        <input type="text" id="id-reg">
+        <input type="text" id="reg">
 
         <label for="">DATE :</label>
-        <input type="text" id="id-date">
+        <input type="text" id="date">
 
         <label for="">DEP. A/P :</label>
-        <input type="text" id="id-dep">
+        <input type="text" id="dep">
 
-        <button type="button" onclick="tambahData()"><a href="TABLECOBA.HTML">submit</a></button>
+        <button type="button" onclick="tambahData()">submit</button>
     </form>
 
+    <table class="tabel-coba" id="tabelData">
+        <thead>
+            <tr>
+                <th>id Flight</th>
+                <th>FLT. NO: IP</th>
+                <th>A/C REG.: PK </th>
+                <th>DATE</th>
+                <th>DEP. A/P:</th>
+            </tr>
+        </thead>
+        <tbody>
 
+        </tbody>
+    </table>
     
 <script src="coba.js"></script>
 </body>

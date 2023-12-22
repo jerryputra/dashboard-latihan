@@ -1,15 +1,9 @@
 function tambahData(){
-    var flight = document.getElementById('id-fli').value;
-    var flt = document.getElementById('id-flt').value;
-    var reg = document.getElementById('id-reg').value;
-    var date = document.getElementById('id-date').value;
-    var dep = document.getElementById('id-dep').value;
-
-    window.location.href = 'http://127.0.0.1:5500/TABLECOBA.HTML?id-fli=' + encodeURIComponent(flight) + '&id-flt='
-     + encodeURIComponent(flt) + '&id-reg=' 
-     + encodeURIComponent(reg) + '&id-date=' 
-     + encodeURIComponent(date) + '&id-dep=' 
-     + encodeURIComponent(dep) ;
+    var flight = document.getElementById('fli').value;
+    var flt = document.getElementById('flt').value;
+    var reg = document.getElementById('reg').value;
+    var date = document.getElementById('date').value;
+    var dep = document.getElementById('dep').value;
 
 
     var table = document.getElementById('tabelData').getElementsByTagName('tbody')[0];
